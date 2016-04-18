@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9333921CA7633800C9EDA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9333911CA7633800C9EDA5 /* main.m */; };
+		DB9333951CA7633800C9EDA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9333941CA7633800C9EDA5 /* AppDelegate.m */; };
+		DB9333981CA7633800C9EDA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9333971CA7633800C9EDA5 /* ViewController.m */; };
+		DB93339B1CA7633800C9EDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9333991CA7633800C9EDA5 /* Main.storyboard */; };
+		DB93339D1CA7633800C9EDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB93339C1CA7633800C9EDA5 /* Assets.xcassets */; };
+		DB9333A01CA7633800C9EDA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB93339E1CA7633800C9EDA5 /* LaunchScreen.storyboard */; };
+		DB9333AB1CA7633800C9EDA5 /* HBCameraPhotoControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9333AA1CA7633800C9EDA5 /* HBCameraPhotoControllerTests.m */; };
+		DB9333B61CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9333B51CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.m */; };
+		F1F9B65D1CC48833005C1F28 /* HBBrowseImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9B6521CC48833005C1F28 /* HBBrowseImageController.m */; };
+		F1F9B65E1CC48833005C1F28 /* HBCarmeraOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9B6541CC48833005C1F28 /* HBCarmeraOverView.m */; };
+		F1F9B65F1CC48833005C1F28 /* HBCarmeraPhtoControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9B6561CC48833005C1F28 /* HBCarmeraPhtoControl.m */; };
+		F1F9B6601CC48833005C1F28 /* HBImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9B6581CC48833005C1F28 /* HBImageCollectionCell.m */; };
+		F1F9B6611CC48833005C1F28 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F9B65A1CC48833005C1F28 /* bg1.png */; };
+		F1F9B6621CC48833005C1F28 /* ico_pic_del.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F9B65B1CC48833005C1F28 /* ico_pic_del.png */; };
+		F1F9B6631CC48833005C1F28 /* take_photo_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F9B65C1CC48833005C1F28 /* take_photo_pic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9333A71CA7633800C9EDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9333851CA7633800C9EDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB93338C1CA7633800C9EDA5;
+			remoteInfo = HBCameraPhotoController;
+		};
+		DB9333B21CA7633800C9EDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9333851CA7633800C9EDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB93338C1CA7633800C9EDA5;
+			remoteInfo = HBCameraPhotoController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB93338D1CA7633800C9EDA5 /* HBCameraPhotoController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBCameraPhotoController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9333911CA7633800C9EDA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9333931CA7633800C9EDA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB9333941CA7633800C9EDA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB9333961CA7633800C9EDA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB9333971CA7633800C9EDA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB93339A1CA7633800C9EDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB93339C1CA7633800C9EDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB93339F1CA7633800C9EDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9333A11CA7633800C9EDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9333A61CA7633800C9EDA5 /* HBCameraPhotoControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCameraPhotoControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9333AA1CA7633800C9EDA5 /* HBCameraPhotoControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCameraPhotoControllerTests.m; sourceTree = "<group>"; };
+		DB9333AC1CA7633800C9EDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9333B11CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBCameraPhotoControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9333B51CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBCameraPhotoControllerUITests.m; sourceTree = "<group>"; };
+		DB9333B71CA7633800C9EDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F9B6511CC48833005C1F28 /* HBBrowseImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBrowseImageController.h; sourceTree = "<group>"; };
+		F1F9B6521CC48833005C1F28 /* HBBrowseImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBrowseImageController.m; sourceTree = "<group>"; };
+		F1F9B6531CC48833005C1F28 /* HBCarmeraOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCarmeraOverView.h; sourceTree = "<group>"; };
+		F1F9B6541CC48833005C1F28 /* HBCarmeraOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCarmeraOverView.m; sourceTree = "<group>"; };
+		F1F9B6551CC48833005C1F28 /* HBCarmeraPhtoControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCarmeraPhtoControl.h; sourceTree = "<group>"; };
+		F1F9B6561CC48833005C1F28 /* HBCarmeraPhtoControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCarmeraPhtoControl.m; sourceTree = "<group>"; };
+		F1F9B6571CC48833005C1F28 /* HBImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBImageCollectionCell.h; sourceTree = "<group>"; };
+		F1F9B6581CC48833005C1F28 /* HBImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBImageCollectionCell.m; sourceTree = "<group>"; };
+		F1F9B65A1CC48833005C1F28 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		F1F9B65B1CC48833005C1F28 /* ico_pic_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_pic_del.png; sourceTree = "<group>"; };
+		F1F9B65C1CC48833005C1F28 /* take_photo_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_photo_pic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB93338A1CA7633800C9EDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333A31CA7633800C9EDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333AE1CA7633800C9EDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9333841CA7633800C9EDA5 = {
+			isa = PBXGroup;
+			children = (
+				DB93338F1CA7633800C9EDA5 /* HBCameraPhotoController */,
+				DB9333A91CA7633800C9EDA5 /* HBCameraPhotoControllerTests */,
+				DB9333B41CA7633800C9EDA5 /* HBCameraPhotoControllerUITests */,
+				DB93338E1CA7633800C9EDA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB93338E1CA7633800C9EDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB93338D1CA7633800C9EDA5 /* HBCameraPhotoController.app */,
+				DB9333A61CA7633800C9EDA5 /* HBCameraPhotoControllerTests.xctest */,
+				DB9333B11CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB93338F1CA7633800C9EDA5 /* HBCameraPhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9B6501CC48833005C1F28 /* CCCameraPhotoController */,
+				DB9333931CA7633800C9EDA5 /* AppDelegate.h */,
+				DB9333941CA7633800C9EDA5 /* AppDelegate.m */,
+				DB9333961CA7633800C9EDA5 /* ViewController.h */,
+				DB9333971CA7633800C9EDA5 /* ViewController.m */,
+				DB9333991CA7633800C9EDA5 /* Main.storyboard */,
+				DB93339C1CA7633800C9EDA5 /* Assets.xcassets */,
+				DB93339E1CA7633800C9EDA5 /* LaunchScreen.storyboard */,
+				DB9333A11CA7633800C9EDA5 /* Info.plist */,
+				DB9333901CA7633800C9EDA5 /* Supporting Files */,
+			);
+			path = HBCameraPhotoController;
+			sourceTree = "<group>";
+		};
+		DB9333901CA7633800C9EDA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9333911CA7633800C9EDA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9333A91CA7633800C9EDA5 /* HBCameraPhotoControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9333AA1CA7633800C9EDA5 /* HBCameraPhotoControllerTests.m */,
+				DB9333AC1CA7633800C9EDA5 /* Info.plist */,
+			);
+			path = HBCameraPhotoControllerTests;
+			sourceTree = "<group>";
+		};
+		DB9333B41CA7633800C9EDA5 /* HBCameraPhotoControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9333B51CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.m */,
+				DB9333B71CA7633800C9EDA5 /* Info.plist */,
+			);
+			path = HBCameraPhotoControllerUITests;
+			sourceTree = "<group>";
+		};
+		F1F9B6501CC48833005C1F28 /* CCCameraPhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9B6511CC48833005C1F28 /* HBBrowseImageController.h */,
+				F1F9B6521CC48833005C1F28 /* HBBrowseImageController.m */,
+				F1F9B6531CC48833005C1F28 /* HBCarmeraOverView.h */,
+				F1F9B6541CC48833005C1F28 /* HBCarmeraOverView.m */,
+				F1F9B6551CC48833005C1F28 /* HBCarmeraPhtoControl.h */,
+				F1F9B6561CC48833005C1F28 /* HBCarmeraPhtoControl.m */,
+				F1F9B6571CC48833005C1F28 /* HBImageCollectionCell.h */,
+				F1F9B6581CC48833005C1F28 /* HBImageCollectionCell.m */,
+				F1F9B6591CC48833005C1F28 /* Soure */,
+			);
+			path = CCCameraPhotoController;
+			sourceTree = "<group>";
+		};
+		F1F9B6591CC48833005C1F28 /* Soure */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9B65A1CC48833005C1F28 /* bg1.png */,
+				F1F9B65B1CC48833005C1F28 /* ico_pic_del.png */,
+				F1F9B65C1CC48833005C1F28 /* take_photo_pic.png */,
+			);
+			path = Soure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB93338C1CA7633800C9EDA5 /* HBCameraPhotoController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9333BA1CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoController" */;
+			buildPhases = (
+				DB9333891CA7633800C9EDA5 /* Sources */,
+				DB93338A1CA7633800C9EDA5 /* Frameworks */,
+				DB93338B1CA7633800C9EDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBCameraPhotoController;
+			productName = HBCameraPhotoController;
+			productReference = DB93338D1CA7633800C9EDA5 /* HBCameraPhotoController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9333A51CA7633800C9EDA5 /* HBCameraPhotoControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9333BD1CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoControllerTests" */;
+			buildPhases = (
+				DB9333A21CA7633800C9EDA5 /* Sources */,
+				DB9333A31CA7633800C9EDA5 /* Frameworks */,
+				DB9333A41CA7633800C9EDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9333A81CA7633800C9EDA5 /* PBXTargetDependency */,
+			);
+			name = HBCameraPhotoControllerTests;
+			productName = HBCameraPhotoControllerTests;
+			productReference = DB9333A61CA7633800C9EDA5 /* HBCameraPhotoControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9333B01CA7633800C9EDA5 /* HBCameraPhotoControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9333C01CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoControllerUITests" */;
+			buildPhases = (
+				DB9333AD1CA7633800C9EDA5 /* Sources */,
+				DB9333AE1CA7633800C9EDA5 /* Frameworks */,
+				DB9333AF1CA7633800C9EDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9333B31CA7633800C9EDA5 /* PBXTargetDependency */,
+			);
+			name = HBCameraPhotoControllerUITests;
+			productName = HBCameraPhotoControllerUITests;
+			productReference = DB9333B11CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9333851CA7633800C9EDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = heart;
+				TargetAttributes = {
+					DB93338C1CA7633800C9EDA5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 74978EWD7M;
+					};
+					DB9333A51CA7633800C9EDA5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 74978EWD7M;
+						TestTargetID = DB93338C1CA7633800C9EDA5;
+					};
+					DB9333B01CA7633800C9EDA5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 74978EWD7M;
+						TestTargetID = DB93338C1CA7633800C9EDA5;
+					};
+				};
+			};
+			buildConfigurationList = DB9333881CA7633800C9EDA5 /* Build configuration list for PBXProject "HBCameraPhotoController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9333841CA7633800C9EDA5;
+			productRefGroup = DB93338E1CA7633800C9EDA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB93338C1CA7633800C9EDA5 /* HBCameraPhotoController */,
+				DB9333A51CA7633800C9EDA5 /* HBCameraPhotoControllerTests */,
+				DB9333B01CA7633800C9EDA5 /* HBCameraPhotoControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB93338B1CA7633800C9EDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F9B6611CC48833005C1F28 /* bg1.png in Resources */,
+				DB9333A01CA7633800C9EDA5 /* LaunchScreen.storyboard in Resources */,
+				DB93339D1CA7633800C9EDA5 /* Assets.xcassets in Resources */,
+				F1F9B6621CC48833005C1F28 /* ico_pic_del.png in Resources */,
+				F1F9B6631CC48833005C1F28 /* take_photo_pic.png in Resources */,
+				DB93339B1CA7633800C9EDA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333A41CA7633800C9EDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333AF1CA7633800C9EDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9333891CA7633800C9EDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9333981CA7633800C9EDA5 /* ViewController.m in Sources */,
+				DB9333951CA7633800C9EDA5 /* AppDelegate.m in Sources */,
+				F1F9B65F1CC48833005C1F28 /* HBCarmeraPhtoControl.m in Sources */,
+				DB9333921CA7633800C9EDA5 /* main.m in Sources */,
+				F1F9B65D1CC48833005C1F28 /* HBBrowseImageController.m in Sources */,
+				F1F9B6601CC48833005C1F28 /* HBImageCollectionCell.m in Sources */,
+				F1F9B65E1CC48833005C1F28 /* HBCarmeraOverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333A21CA7633800C9EDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9333AB1CA7633800C9EDA5 /* HBCameraPhotoControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9333AD1CA7633800C9EDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9333B61CA7633800C9EDA5 /* HBCameraPhotoControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9333A81CA7633800C9EDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB93338C1CA7633800C9EDA5 /* HBCameraPhotoController */;
+			targetProxy = DB9333A71CA7633800C9EDA5 /* PBXContainerItemProxy */;
+		};
+		DB9333B31CA7633800C9EDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB93338C1CA7633800C9EDA5 /* HBCameraPhotoController */;
+			targetProxy = DB9333B21CA7633800C9EDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9333991CA7633800C9EDA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB93339A1CA7633800C9EDA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB93339E1CA7633800C9EDA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB93339F1CA7633800C9EDA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9333B81CA7633800C9EDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9333B91CA7633800C9EDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9333BB1CA7633800C9EDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBCameraPhotoController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB9333BC1CA7633800C9EDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HBCameraPhotoController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB9333BE1CA7633800C9EDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HBCameraPhotoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBCameraPhotoController.app/HBCameraPhotoController";
+			};
+			name = Debug;
+		};
+		DB9333BF1CA7633800C9EDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HBCameraPhotoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HBCameraPhotoController.app/HBCameraPhotoController";
+			};
+			name = Release;
+		};
+		DB9333C11CA7633800C9EDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HBCameraPhotoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HBCameraPhotoController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB9333C21CA7633800C9EDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HBCameraPhotoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = heart.HBCameraPhotoControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HBCameraPhotoController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9333881CA7633800C9EDA5 /* Build configuration list for PBXProject "HBCameraPhotoController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9333B81CA7633800C9EDA5 /* Debug */,
+				DB9333B91CA7633800C9EDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9333BA1CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9333BB1CA7633800C9EDA5 /* Debug */,
+				DB9333BC1CA7633800C9EDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9333BD1CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9333BE1CA7633800C9EDA5 /* Debug */,
+				DB9333BF1CA7633800C9EDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9333C01CA7633800C9EDA5 /* Build configuration list for PBXNativeTarget "HBCameraPhotoControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9333C11CA7633800C9EDA5 /* Debug */,
+				DB9333C21CA7633800C9EDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9333851CA7633800C9EDA5 /* Project object */;
+}
