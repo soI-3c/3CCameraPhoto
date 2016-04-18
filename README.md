@@ -12,24 +12,16 @@
   imageType:  HBCarmeraImageTypeEdit      // 压缩图片(按 maxSize大小进行压缩)  
               HBCarmeraImageTypeBasic     // 原图  
 */  
+在你要触发相机的事件中:  
 
- self.carmeraPhotoControl = [[HBCarmeraPhtoControl alloc] initMaxPhotoNumber:5 maxSize:200 imageType: HBCarmeraImageTypeEdit];  
+  self.carmeraPhotoControl = [[HBCarmeraPhtoControl alloc] initMaxPhotoNumber:5 maxSize:200 imageType: HBCarmeraImageTypeEdit];  
  
     self.carmeraPhotoControl.asscomplishAction = ^(NSMutableArray *photos) {            // 拍摄完成的回调用,photos里为拍摄的图片  
-    
         for (UIImage *image in photos) {  
-        
             // todo  
-            
         }  
-        
     };  
-    
     if ([HBCarmeraPhtoControl isCanCarmer]) {                                          //  判断相机权限  
-    
         self.carmeraPhotoControl.sourceType = UIImagePickerControllerSourceTypeCamera;  
-        
-        [self presentViewController: self.carmeraPhotoControl animated: true completion: nil];      // todo  
-        
-    }  
-    
+        [self presentViewController: self.carmeraPhotoControl animated: true completion: nil];      // todo   
+    }
