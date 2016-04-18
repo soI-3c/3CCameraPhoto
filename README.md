@@ -1,4 +1,6 @@
 # 3CCameraPhoto
+   相机连拍功能     
+   
 1. 导入头文件  
 2.#import "HBCarmeraPhtoControl.h"  
 
