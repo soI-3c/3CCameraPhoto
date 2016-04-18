@@ -1,6 +1,6 @@
 # 3CCameraPhoto
    相机连拍功能     
-   
+   支持 iOS 7.0 以上  
 1. 导入头文件  
 2.#import "HBCarmeraPhtoControl.h"  
 
